@@ -18,3 +18,29 @@ final: Final (variabel yang menggunakan keyword final) diinialisasi pada saat pe
 
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 Untuk tugas kali ini, saya memulai dengan membuat projek baru bernama counter_7 (berupa folder berisi file-file yang salah satunya adalah code dart). Setelah itu saya me-run flutter dengan command "flutter run" dan tampilan androidnya ada dalam emulator/web saya (tergantung pilihan). Setelah itu, saya mengubah kode yang berada di lib/main.dart. pertama saya menambahkan floatingActionButton untuk bagian decrement. Lalu, saya membuat method _decrementCounter untuk mengurangi nilai counter, tidak lupa saya menggunakan setState() agar nilai pengurangan tersimpan. Lalu saya membuat kondisi if-else dibagian body untuk mengubah warna dan isi text. Lalu, untuk bonus saya menggunakan kondisi if-else kembali di bagian floatingActionButton. 
+
+Tugas 8:
+
+1. Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement.
+Navigator.push : menambahkan rute lain ke atas tumpukan screen (stack) saat ini. Halaman baru ditampilkan di atas halaman sebelumnya.
+Navigator.pushReplacement : menambahkan rute dengan cara mengganti topofstack menjadi page yang baru.
+
+2. Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+- Text : Untuk memunculkan serangkaian teks
+- TextStyle : Untuk meng-edit widget text yang sudah dibuat
+- Center : meletakan atau memposisikan widget ke bagian tengah
+- Drawer : dapat menambahkan navbar pada widget
+
+3. Sebutkan jenis-jenis event yang ada pada Flutter (contoh: onPressed).
+- onClick
+- onClose
+- onError
+- onShow
+- onPressed
+
+4. Jelaskan bagaimana cara kerja Navigator dalam "mengganti" halaman dari aplikasi Flutter.
+Navigator berkerja dengan membuat widget stack-based yang menyimpan riwayat widget yang sudah dibuat (ditumpuk di stack). Dengan menggunakan method push, menambahkan rute di stack.
+
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+Pertama membuat drawer untuk menampung navbar. Lalu, membuat class untuk routing pada drawer. Membuat class Model, class ini digunakan untuk menampung data budget. Lalu menambahkan class data_budget.dart untuk menampilkan data dan tambah_budget  untuk form budget.
+
