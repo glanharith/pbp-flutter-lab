@@ -1,6 +1,7 @@
-import 'package:counter_7/view/navbar.dart';
+import 'package:counter_7/page/navbar.dart';
 import 'package:flutter/material.dart';
 import 'package:counter_7/model/budget.dart';
+
 
 class TambahBudget extends StatefulWidget {
   const TambahBudget({super.key});

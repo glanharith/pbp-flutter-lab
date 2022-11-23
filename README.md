@@ -44,3 +44,18 @@ Navigator berkerja dengan membuat widget stack-based yang menyimpan riwayat widg
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 Pertama membuat drawer untuk menampung navbar. Lalu, membuat class untuk routing pada drawer. Membuat class Model, class ini digunakan untuk menampung data budget. Lalu menambahkan class data_budget.dart untuk menampilkan data dan tambah_budget  untuk form budget.
 
+
+Tugas 9:
+1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+Iya dapat dilakukan. Namun, dalam pengambilan JSON tanpa membuat model akan memperbesar peluang dari kesalahan pengambilan data atau penampilan data. Jadi, lebih baik untuk mengimplementasikan models
+
+2. Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+- FutureBuilder: untuk menggenerate array of widget berdasarkan suatu snapshot dengan memperhatikan teraksi snapshot terbaru
+- ElevatedButton: tombol build-in untuk mentrigger suatu event 
+- Scaffold: mengimplementasikan struktur umum material layout design
+
+3. Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+Pertama membuat model untuk data JSON yang diambil. Lalu, membuat function GET untuk mengambil data JSON. Konversi JSON menjadi sebuah objek. Setelah itu, menampilkannya di page.
+
+4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
+Pertama membuat model untuk data JSON yang diambil. Lalu, membuat function GET untuk mengambil data JSON. Konversi JSON menjadi sebuah objek. Setelah itu, menampilkannya di page. 
